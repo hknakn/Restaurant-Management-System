@@ -86,6 +86,12 @@
       <DependentUpon>fmLogin.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="fmMenu.Designer.vb">
+      <DependentUpon>fmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="fmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

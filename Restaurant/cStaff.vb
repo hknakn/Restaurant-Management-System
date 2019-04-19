@@ -83,15 +83,15 @@ Public Class cStaff
 
     Dim General As New cGeneral
 
-    Public Function StaffLoginControl(ByVal password As String, ByVal userID As Integer) As Boolean
+    Public Function StaffLoginControl(ByVal password As String, ByVal userName As String) As Boolean
 
         Dim Result As Boolean = False
 
         Dim con As New SqlConnection(General.conString)
-        Dim cmd As New SqlCommand("SELECT * FROM STAFF WHERE ID=@ID AND PASSWORD=@PASSWORD", con)
+        Dim cmd As New SqlCommand("SELECT * FROM STAFF WHERE USERNAME=@USERNAME AND PASSWORD=@PASSWORD", con)
 
-        cmd.Parameters.Add("@ID", SqlDbType.UniqueIdentifier).Value = userID
-        cmd.Parameters.Add("@PASSWORD", SqlDbType.NVarChar).Value = password
+        cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar).Value = userName
+        cmd.Parameters.Add("@PASSWORD", SqlDbType.VarChar).Value = password
 
         Try
 
@@ -99,7 +99,7 @@ Public Class cStaff
                 con.Open()
             End If
 
-            Result = Convert.ToBoolean(cmd.ExecuteScalar)
+            Result = Convert.ToBoolean(cmd.ExecuteNonQuery)
 
         Catch ex As Exception
             Dim ErrorMessage As String = ex.Message

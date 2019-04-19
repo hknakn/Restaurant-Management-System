@@ -7,9 +7,27 @@
 
         ' Add any initialization after the InitializeComponent() call.
 
+        txtPassword.isPassword = True
+
     End Sub
 
 #Region "Form Events"
+
+    Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+
+        Dim Staff As New cStaff
+        Dim Result As Boolean = Staff.StaffLoginControl(txtPassword.Text, txtUser.Text)
+
+        If Result Then
+
+            Dim Menu As New fmMenu
+
+            Me.Hide()
+            Menu.Show()
+
+        End If
+
+    End Sub
 
     Private Sub PicClose_Click(sender As Object, e As EventArgs) Handles picClose.Click
         Me.Close()
