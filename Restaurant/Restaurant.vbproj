@@ -79,6 +79,7 @@
   <ItemGroup>
     <Compile Include="cGeneral.vb" />
     <Compile Include="cStaff.vb" />
+    <Compile Include="cStaffMovements.vb" />
     <Compile Include="fmLogin.vb">
       <SubType>Form</SubType>
     </Compile>

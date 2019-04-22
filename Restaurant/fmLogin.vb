@@ -21,6 +21,13 @@
         If Result Then
 
             Dim Menu As New fmMenu
+            Dim StaffMove As New cStaffMovements
+
+            StaffMove.StaffMoveID = Guid.NewGuid
+            StaffMove.StaffID = cGeneral._StaffID
+            StaffMove.Movement = "Giriş Yaptı."
+            StaffMove.MoveDate = DateTime.Now
+            StaffMove.StaffMoveSave(StaffMove)
 
             Me.Hide()
             Menu.Show()

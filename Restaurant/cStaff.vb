@@ -109,4 +109,34 @@ Public Class cStaff
 
     End Function
 
+    Public Sub GetStaffInfo()
+
+        Dim con As New SqlConnection(General.conString)
+        Dim cmd As New SqlCommand("SELECT * FROM STAFF", con)
+
+        Try
+
+            If con.State = ConnectionState.Closed Then
+                con.Open()
+            End If
+
+            Dim dr As SqlDataReader = cmd.ExecuteReader
+
+            While dr.Read
+
+                Dim Staff As New cStaff
+
+                Staff._StaffID = dr("StaffID")
+                Staff._StaffPositionID = dr("StaffPositionID")
+                Staff._StaffName = dr("StaffName")
+                Staff._StaffSurname = dr("StaffSurname")
+
+            End While
+
+        Catch ex As SqlException
+            MessageBox.Show(ex.Message)
+        End Try
+
+    End Sub
+
 End Class
