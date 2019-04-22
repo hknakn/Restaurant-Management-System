@@ -170,6 +170,9 @@
     <EmbeddedResource Include="Forms\fmMenu.resx">
       <DependentUpon>fmMenu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fmTables.resx">
+      <DependentUpon>fmTables.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -239,6 +242,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51882.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
