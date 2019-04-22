@@ -99,10 +99,10 @@ Public Class cStaff
                 con.Open()
             End If
 
-            Result = Convert.ToBoolean(cmd.ExecuteNonQuery)
+            If cmd.ExecuteScalar IsNot Nothing Then Result = True
 
-        Catch ex As Exception
-            Dim ErrorMessage As String = ex.Message
+        Catch ex As SqlException
+            MessageBox.Show(ex.Message)
         End Try
 
         Return Result
@@ -124,12 +124,10 @@ Public Class cStaff
 
             While dr.Read
 
-                Dim Staff As New cStaff
-
-                Staff._StaffID = dr("StaffID")
-                Staff._StaffPositionID = dr("StaffPositionID")
-                Staff._StaffName = dr("StaffName")
-                Staff._StaffSurname = dr("StaffSurname")
+                _StaffID = dr("StaffID")
+                _StaffPositionID = dr("StaffPositionID")
+                _StaffName = dr("StaffName")
+                _StaffSurname = dr("StaffSurname")
 
             End While
 

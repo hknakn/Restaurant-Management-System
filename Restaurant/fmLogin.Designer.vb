@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class fmLogin
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,23 +20,25 @@ Partial Class fmLogin
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(fmLogin))
         Me.lblUser = New System.Windows.Forms.Label()
         Me.txtUser = New Bunifu.Framework.UI.BunifuMaterialTextbox()
-        Me.txtPassword = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.lblForgotPass = New System.Windows.Forms.Label()
         Me.lblNewUser = New System.Windows.Forms.Label()
         Me.pnl = New System.Windows.Forms.Panel()
-        Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
+        Me.Elipse = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.picClose = New System.Windows.Forms.PictureBox()
         Me.picComLogo = New System.Windows.Forms.PictureBox()
         Me.picPass = New System.Windows.Forms.PictureBox()
         Me.picUser = New System.Windows.Forms.PictureBox()
         Me.btnLogin = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.picLogo = New System.Windows.Forms.PictureBox()
+        Me.txtPassword = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.BunifuDragControl = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
+        Me.BunifuFormFadeTransition1 = New Bunifu.Framework.UI.BunifuFormFadeTransition(Me.components)
         CType(Me.picClose, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picComLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picPass, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,26 +77,6 @@ Partial Class fmLogin
         Me.txtUser.TabIndex = 2
         Me.txtUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         '
-        'txtPassword
-        '
-        Me.txtPassword.BackColor = System.Drawing.Color.White
-        Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtPassword.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.txtPassword.HintForeColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.txtPassword.HintText = "Şifre"
-        Me.txtPassword.isPassword = True
-        Me.txtPassword.LineFocusedColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(7, Byte), Integer))
-        Me.txtPassword.LineIdleColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.txtPassword.LineMouseHoverColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(7, Byte), Integer))
-        Me.txtPassword.LineThickness = 2
-        Me.txtPassword.Location = New System.Drawing.Point(446, 273)
-        Me.txtPassword.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(362, 39)
-        Me.txtPassword.TabIndex = 3
-        Me.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
         'lblForgotPass
         '
         Me.lblForgotPass.AutoSize = True
@@ -125,10 +107,10 @@ Partial Class fmLogin
         Me.pnl.Size = New System.Drawing.Size(194, 3)
         Me.pnl.TabIndex = 1
         '
-        'BunifuElipse1
+        'Elipse
         '
-        Me.BunifuElipse1.ElipseRadius = 5
-        Me.BunifuElipse1.TargetControl = Me
+        Me.Elipse.ElipseRadius = 5
+        Me.Elipse.TargetControl = Me
         '
         'picClose
         '
@@ -206,12 +188,44 @@ Partial Class fmLogin
         Me.picLogo.TabIndex = 0
         Me.picLogo.TabStop = False
         '
+        'txtPassword
+        '
+        Me.txtPassword.BackColor = System.Drawing.Color.White
+        Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPassword.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtPassword.HintForeColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.txtPassword.HintText = "Şifre"
+        Me.txtPassword.isPassword = False
+        Me.txtPassword.LineFocusedColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(7, Byte), Integer))
+        Me.txtPassword.LineIdleColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.txtPassword.LineMouseHoverColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(7, Byte), Integer))
+        Me.txtPassword.LineThickness = 2
+        Me.txtPassword.Location = New System.Drawing.Point(446, 273)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(362, 39)
+        Me.txtPassword.TabIndex = 11
+        Me.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        '
+        'BunifuDragControl
+        '
+        Me.BunifuDragControl.Fixed = True
+        Me.BunifuDragControl.Horizontal = True
+        Me.BunifuDragControl.TargetControl = Me
+        Me.BunifuDragControl.Vertical = True
+        '
+        'BunifuFormFadeTransition1
+        '
+        Me.BunifuFormFadeTransition1.Delay = 1
+        '
         'fmLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(850, 500)
+        Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.picClose)
         Me.Controls.Add(Me.pnl)
         Me.Controls.Add(Me.picComLogo)
@@ -220,12 +234,12 @@ Partial Class fmLogin
         Me.Controls.Add(Me.lblNewUser)
         Me.Controls.Add(Me.lblForgotPass)
         Me.Controls.Add(Me.btnLogin)
-        Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.txtUser)
         Me.Controls.Add(Me.lblUser)
         Me.Controls.Add(Me.picLogo)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "fmLogin"
+        Me.Opacity = 0R
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
         CType(Me.picClose, System.ComponentModel.ISupportInitialize).EndInit()
@@ -241,7 +255,6 @@ Partial Class fmLogin
     Friend WithEvents picLogo As PictureBox
     Friend WithEvents lblUser As Label
     Friend WithEvents txtUser As Bunifu.Framework.UI.BunifuMaterialTextbox
-    Friend WithEvents txtPassword As Bunifu.Framework.UI.BunifuMaterialTextbox
     Friend WithEvents btnLogin As Bunifu.Framework.UI.BunifuThinButton2
     Friend WithEvents lblForgotPass As Label
     Friend WithEvents lblNewUser As Label
@@ -249,6 +262,9 @@ Partial Class fmLogin
     Friend WithEvents picPass As PictureBox
     Friend WithEvents picComLogo As PictureBox
     Friend WithEvents pnl As Panel
-    Friend WithEvents BunifuElipse1 As Bunifu.Framework.UI.BunifuElipse
+    Friend WithEvents Elipse As Bunifu.Framework.UI.BunifuElipse
     Friend WithEvents picClose As PictureBox
+    Friend WithEvents txtPassword As Bunifu.Framework.UI.BunifuMaterialTextbox
+    Private WithEvents BunifuDragControl As Bunifu.Framework.UI.BunifuDragControl
+    Private WithEvents BunifuFormFadeTransition1 As Bunifu.Framework.UI.BunifuFormFadeTransition
 End Class

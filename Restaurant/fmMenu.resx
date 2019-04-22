@@ -117,35 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Elipse.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="BunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>44</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnLogin.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAZ4AAAA8CAYAAABW39xeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKjSURBVHhe7dq7ThRhGMdhOwtIJCqIxIZIYm1hS2XsTGhM
-        uA0TC2sL78LGjtLS0tI7oFz3oByKTRTFgPA6HzPKYUciYXir55c8DfPtUP4zu3MtJElKzPBIklIzPJKk
-        1AyPJCk1wyNJSs3wSJJSO394DncjdtYitlYivjyKGCxEfLoOAKeVfSg7sfkk4tvbiINxMyST/Xt4fryv
-        bjRfmY3otfwTADir7MXgZmUu4uubZlBONzk8ZaW2n0UMqw+13RQA/sewenDZWI74tdEMTN3p4SmjM1qq
-        PjA9eQMAuKjyBDS6H7Hfa4bm7PCUJx2jA0DXyu8/TcfDU37T8fUaAFeh/O4zfnU0N/XwlLfXyosEbYcB
-        oAvDuxF7683wlFffyhq1HQSATkxVTz0vmuEp7117ZRqAqzZ60AzPcLH9AAB0qT/VDE9/pv0AAHSsHp6W
-        CwBwFQwPAKkMDwCpDA8AqQwPAKkMDwCpDA8AqQwPAKkMDwCpDA8AqQwPAKkMDwCpDA8AqQwPAKkMDwCp
-        DA8AqQwPAKkMDwCpDA8AqQwPAKkMDwCpDA8AqQwPAKkMDwCpDA8AqQwPAKkMDwCp6uHpT7VeBICu1cMz
-        WGi9CABdq4dnYzmi134AADozXGyGZ/y6euq50X4IALpQHnC2V5vh2e9Vw3On/SAAdGEwF/H9XTM8pfHL
-        6o+32g8DwKVMR2w9PZqb4+E53I34/LDlMABc0vBexMH4aG6Oh6e0t15d9IYbAB0azkfsfmiG5uzwlH5+
-        jBgtVYe9bADAZUzXTzonRqc0OTyl8rXb+Hn9Q5DXrAG4iLIbg9mIzcd/v147Wfvw/Kms1PZqdYPb7TcH
-        gJP6MxFbKxE7a82QTHb+8EiS1HGGR5KUmuGRJKVmeCRJqRkeSVJiEb8BLctEQaV2MJoAAAAASUVORK5C
-        YII=
-</value>
-  </data>
-  <metadata name="BunifuDragControl.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>84, 17</value>
-  </metadata>
-  <metadata name="BunifuFormFadeTransition1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>235, 23</value>
+    <value>47</value>
   </metadata>
 </root>

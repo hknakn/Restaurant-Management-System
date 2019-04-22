@@ -81,12 +81,11 @@ Public Class cStaffMovements
             cmd.Parameters.Add("@Movement", SqlDbType.VarChar).Value = staffMovements.Movement
             cmd.Parameters.Add("@Date", SqlDbType.VarChar).Value = staffMovements.MoveDate
 
+
             Result = Convert.ToBoolean(cmd.ExecuteNonQuery)
 
         Catch ex As SqlException
-
             MessageBox.Show(ex.Message)
-
         End Try
 
     End Function
