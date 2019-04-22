@@ -30,15 +30,15 @@ Partial Class fmLogin
         Me.lblNewUser = New System.Windows.Forms.Label()
         Me.pnl = New System.Windows.Forms.Panel()
         Me.Elipse = New Bunifu.Framework.UI.BunifuElipse(Me.components)
+        Me.txtPassword = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.BunifuDragControl = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
+        Me.BunifuFormFadeTransition1 = New Bunifu.Framework.UI.BunifuFormFadeTransition(Me.components)
         Me.picClose = New System.Windows.Forms.PictureBox()
         Me.picComLogo = New System.Windows.Forms.PictureBox()
         Me.picPass = New System.Windows.Forms.PictureBox()
         Me.picUser = New System.Windows.Forms.PictureBox()
         Me.btnLogin = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.picLogo = New System.Windows.Forms.PictureBox()
-        Me.txtPassword = New Bunifu.Framework.UI.BunifuMaterialTextbox()
-        Me.BunifuDragControl = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
-        Me.BunifuFormFadeTransition1 = New Bunifu.Framework.UI.BunifuFormFadeTransition(Me.components)
         CType(Me.picClose, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picComLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picPass, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -111,6 +111,37 @@ Partial Class fmLogin
         '
         Me.Elipse.ElipseRadius = 5
         Me.Elipse.TargetControl = Me
+        '
+        'txtPassword
+        '
+        Me.txtPassword.BackColor = System.Drawing.Color.White
+        Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPassword.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.txtPassword.HintForeColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.txtPassword.HintText = "Şifre"
+        Me.txtPassword.isPassword = False
+        Me.txtPassword.LineFocusedColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(7, Byte), Integer))
+        Me.txtPassword.LineIdleColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
+        Me.txtPassword.LineMouseHoverColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(7, Byte), Integer))
+        Me.txtPassword.LineThickness = 2
+        Me.txtPassword.Location = New System.Drawing.Point(446, 273)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(362, 39)
+        Me.txtPassword.TabIndex = 11
+        Me.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        '
+        'BunifuDragControl
+        '
+        Me.BunifuDragControl.Fixed = True
+        Me.BunifuDragControl.Horizontal = True
+        Me.BunifuDragControl.TargetControl = Me
+        Me.BunifuDragControl.Vertical = True
+        '
+        'BunifuFormFadeTransition1
+        '
+        Me.BunifuFormFadeTransition1.Delay = 1
         '
         'picClose
         '
@@ -187,37 +218,6 @@ Partial Class fmLogin
         Me.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.picLogo.TabIndex = 0
         Me.picLogo.TabStop = False
-        '
-        'txtPassword
-        '
-        Me.txtPassword.BackColor = System.Drawing.Color.White
-        Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtPassword.Font = New System.Drawing.Font("Montserrat", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.txtPassword.HintForeColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.txtPassword.HintText = "Şifre"
-        Me.txtPassword.isPassword = False
-        Me.txtPassword.LineFocusedColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(7, Byte), Integer))
-        Me.txtPassword.LineIdleColor = System.Drawing.Color.FromArgb(CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.txtPassword.LineMouseHoverColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(7, Byte), Integer))
-        Me.txtPassword.LineThickness = 2
-        Me.txtPassword.Location = New System.Drawing.Point(446, 273)
-        Me.txtPassword.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.Size = New System.Drawing.Size(362, 39)
-        Me.txtPassword.TabIndex = 11
-        Me.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        '
-        'BunifuDragControl
-        '
-        Me.BunifuDragControl.Fixed = True
-        Me.BunifuDragControl.Horizontal = True
-        Me.BunifuDragControl.TargetControl = Me
-        Me.BunifuDragControl.Vertical = True
-        '
-        'BunifuFormFadeTransition1
-        '
-        Me.BunifuFormFadeTransition1.Delay = 1
         '
         'fmLogin
         '

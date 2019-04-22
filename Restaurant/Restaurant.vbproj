@@ -77,20 +77,74 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cGeneral.vb" />
-    <Compile Include="cStaff.vb" />
-    <Compile Include="cStaffMovements.vb" />
-    <Compile Include="fmLogin.vb">
+    <Compile Include="Classes\cGeneral.vb" />
+    <Compile Include="Classes\cStaff.vb" />
+    <Compile Include="Classes\cStaffMovements.vb" />
+    <Compile Include="Forms\fmCashier.Designer.vb">
+      <DependentUpon>fmCashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmCashier.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmLogin.Designer.vb">
+    <Compile Include="Forms\fmCustomers.Designer.vb">
+      <DependentUpon>fmCustomers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmCustomers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmKitchen.Designer.vb">
+      <DependentUpon>fmKitchen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmKitchen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmLock.Designer.vb">
+      <DependentUpon>fmLock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmLock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmLogin.Designer.vb">
       <DependentUpon>fmLogin.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fmMenu.Designer.vb">
+    <Compile Include="Forms\fmMenu.Designer.vb">
       <DependentUpon>fmMenu.vb</DependentUpon>
     </Compile>
-    <Compile Include="fmMenu.vb">
+    <Compile Include="Forms\fmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmReports.Designer.vb">
+      <DependentUpon>fmReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmReservation.Designer.vb">
+      <DependentUpon>fmReservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmReservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmSettings.Designer.vb">
+      <DependentUpon>fmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmTables.Designer.vb">
+      <DependentUpon>fmTables.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmTables.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fmTakeAway.Designer.vb">
+      <DependentUpon>fmTakeAway.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fmTakeAway.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -110,10 +164,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="fmLogin.resx">
+    <EmbeddedResource Include="Forms\fmLogin.resx">
       <DependentUpon>fmLogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fmMenu.resx">
+    <EmbeddedResource Include="Forms\fmMenu.resx">
       <DependentUpon>fmMenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -152,6 +206,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\restaurant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_19587.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_137604.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_284918.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-security-hacker-computer-icons-espionage-customer-icon-5b14cb3c311366.260738391528089404201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herdmentality.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_568469.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\79bf1cc8fb674806556c5ab4dd24b8de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_542833.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61457.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -121,19 +121,52 @@
   <data name="icons8-secure-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-secure-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="picture14867764381797" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\picture14867764381797.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-delete-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-delete-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_284918" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_284918.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_542833" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_542833.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-security-hacker-computer-icons-espionage-customer-icon-5b14cb3c311366.260738391528089404201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-security-hacker-computer-icons-espionage-customer-icon-5b14cb3c311366.260738391528089404201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Restaurant-icon-EPS-10-by-Hoeda80-8-580x386" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Restaurant-icon-EPS-10-by-Hoeda80-8-580x386.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="img_137604" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_137604.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-circled-user-male-skin-type-4-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-circled-user-male-skin-type-4-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-delete-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-delete-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="79bf1cc8fb674806556c5ab4dd24b8de" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\79bf1cc8fb674806556c5ab4dd24b8de.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="herdmentality" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\herdmentality.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture14867764381797" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture14867764381797.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_19587" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_19587.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61457" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61457.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="restaurant" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\restaurant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_568469" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\img_568469.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
